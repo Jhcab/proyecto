@@ -36,6 +36,19 @@
 		.container-fluid {
 		max-width: 1600px;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 80px solid white;
+    text-align: center;
+    padding: 8px;
+}
+
 .container_wapper {
     width: 100%;
 }
