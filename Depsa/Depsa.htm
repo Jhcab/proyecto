@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8"> 
+	<meta http-equiv="content-type" content="text/html" />
+
+	<link rel="shortcut icon" href="imag/icono.ico">
+	<title>Ejemplo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="jquery.smooth-scroll.min.js"></script>
+    <script src="waypoints.min.js"></script>
+	 <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+     
+    <script type="text/javascript">    
+    $(function(){
+        $('a.smoothScroll').smoothScroll({
+          offset: -80,		  
+		  scrollTarget: $(this).val()
+	   });
+       
+       // Waypoints
+       $('.post_article').waypoint(  
+        function(direction) {
+        if (direction ==='down') {            
+            var wayID = $(this).attr('id');            
+        } else {
+            var previous = $(this).prev();
+            var wayID = $(previous).attr('id');                    
+        }
+            $('.current').removeClass('current');
+            $('#main_nav a[href=#'+wayID+']').addClass('current');
+        }, { offset: '40%' });
+       
+       
+       
+       /// StickNav  
+       var stickyNavTop = $('.nav').offset().top;  
+  
+        var stickyNav = function(){  
+        var scrollTop = $(window).scrollTop();  
+       
+        if (scrollTop > stickyNavTop) {   
+            $('.nav').addClass('isStuck');  
+        } else {  
+            $('.nav').removeClass('isStuck');   
+        }  
+    };       
+    stickyNav(); 
+       $(window).scroll(function() {
+            stickyNav();  
+        });  
+    });
+	</script>
+    
+<LINK href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<nav id="topnav" class="nav">
+    <div class="container">
+	<li><img src="imag/logo.png" width="300" height="130" style="position: absolute; top: 0; left: 1000;"/></li>
+    <ul id="main_nav"> 
+		
+		<font size="4" face="Arial" >
+		<center>
+        <li><a class="smoothScroll" href="#inicio">Inicio</a></li>
+        <li><a class="smoothScroll" href="#nosotros">Sobre nosotros</a></li>
+        <li><a class="smoothScroll" href="#servicios">Nuestros servicios</a></li>
+        <li><a class="smoothScroll" href="#contacto">Contacto</a></li>
+		</center></font>
+    </ul>
+    </div>
+</nav>
+
+<section id="main">
+    <div>
+        <article id="inicio" class="post_article">
+		<embed src="imag/banner.swf" width="1349" height="558" allowscriptaccess="always" allowfullscreen="true"/>
+		</article>
+        
+        <article id="nosotros" class="post_article">
+            <div >
+				<article class="texttitulo">Sobre nostros</article>
+					<div class="container3">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">
+									<h1 font style="color:blue"><center>Nuestro Objetivo</center></h1>
+									<article class="textban">
+										<div class="container2">
+											<ul>
+												
+												Nuestra meta desde el comienzo ha sido ofrecer el mejor servicio garantizando 
+												mayor seguridad y rapidez. Nos caracterizamos por desarrollar nuestros trabajos 
+												de la mejor manera existente, dejando suelos recuperados, terrenos libres de escombros,
+												nivelados y además, reciclamos materiales, lo cual es un bien al medioambiente.
+										</div>			
+									</article>
+								</div>
+
+								<div class="item">
+									<h1 font style="color:blue"><center>Depsa demoliciones</center></h1>
+									<article class="textban">
+									<div class="container2">
+										
+										Somos una empresa con más de 20 años de gran experiencia laboral, dispuestos a dar lo mejor
+										de nosotros en la ejecución de obras relacionadas con la recuperación de suelos, satisfaciendo
+										las necesidades de nuestros clientes al 100%.renos libres de escombros,
+										nivelados y además, reciclamos materiales, lo cual es un bien al medioambiente.
+									
+									</div>			
+									</article>
+								</div>    
+
+							</div>
+
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+							<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#myCarousel" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+							<span class="sr-only">Next</span>
+							</a>
+  
+						</div>
+					</div>
+			</div>
+		</article>
+        
+        <article id="servicios" class="post_article">
+			        <div id="templatemo_about" class="container_wapper">
+			<div class="container-fluid">
+        
+					<article class="texttitulo">Ofrecemos</article>
+			<div class="col-sm-6 col-md-3 about_icon">
+            <div class="imgwap mission" style=" margin-left: 92.1px; width: 122.8px; height: 122.8px;"><img src="imag/of1.png" width="100" height="100"> </div>
+            <h2 style="padding-left: 10%; padding-right: 10%;">Desratización</h2>
+            <p style="padding-left: 10%; padding-right: 10%;">Gestionamos y cumplimos con las normas solicitadas  por la SEREMI de Salud.</p>
+			</div>
+			<div class="col-sm-6 col-md-3 about_icon" style="opacity: 1.06794;">
+            <div class="imgwap product" style="margin-left: 92.1px; width: 122.8px; height: 122.8px;"><img src="imag/of2.png"  width="100" height="100"> <i class="fa fa-cubes" style="font-size: 61.4px; padding-top: 30.7px;"></i></div>
+            <h2 style="padding-left: 10%; padding-right: 10%;">Permisos</h2>
+            <p style="padding-left: 10%; padding-right: 10%;">Contamos con ingenieros encargados de la gestión de permisos Municipales y cumplimos con todas sus normas.</p>
+			</div>
+			<div class="col-sm-6 col-md-3 about_icon" style="opacity: 1.06794;">
+            <div class="imgwap testimonial" style="margin-left: 92.1px; width: 122.8px; height: 122.8px;"><i class="fa fa-bar-chart-o" style="font-size: 61.4px; padding-top: 30.7px;"><img src="imag/of3.png"  width="100" height="100"> </i></div>
+            <h2 style="padding-left: 10%; padding-right: 10%;">Retiro de escombros</h2>
+            <p style="padding-left: 10%; padding-right: 10%;">Los escombros retirados en cada obra, son enviados a botaderos autorizados por la SEREMI de Salud</p>
+			</div>
+			<div class="col-sm-6 col-md-3 about_icon" style="opacity: 1.06794;">
+            <div class="imgwap statistic" style="margin-left: 92.1px; width: 122.8px; height: 122.8px;"><i class="fa fa-comments" style="font-size: 61.4px; padding-top: 30.7px;"><img src="imag/of4.png"  width="100" height="100"> </i></div>
+            <h2 style="padding-left: 10%; padding-right: 10%;">Trabajo 100% garantizado</h2>
+            <p style="padding-left: 10%; padding-right: 10%;">Ofrecemos satisfacción real a todos nuestros clientes, ya sea en demoliciones o excavaciones, recuperando el suelo al 100%.</p>
+			</div>
+			<div class="clearfix testimonial_top_bottom_spacer"></div>
+			</div>
+			</div><!--templatemo_about-->
+		</article>
+		<article id="contacto" class="post_article">
+		<embed src="imag/banner.swf" width="1349" height="558" allowscriptaccess="always" allowfullscreen="true"/>
+		</article>
+    </div><!--container-->
+</section>
+
+</body>
+</html>
