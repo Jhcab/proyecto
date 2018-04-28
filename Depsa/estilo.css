@@ -6,7 +6,7 @@
             width: auto;
             margin: 30px;
         }
-				.container {
+		.container {
 			background-color: white;
 			position:relative;
             width: auto;
@@ -38,16 +38,16 @@
 }
 
 table {
+	border: 0px solid white;
     font-family: arial, sans-serif;
-    border-collapse: collapse;
+	border-collapse: separate;
+	border-spacing: 36px 0px;
     width: 100%;
+	text-align:center;
+	
 }
 
-td, th {
-    border: 80px solid white;
-    text-align: center;
-    padding: 8px;
-}
+
 
 .container_wapper {
     width: 100%;
