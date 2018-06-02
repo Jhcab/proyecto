@@ -1,0 +1,514 @@
+
+
+.container_wapper {
+    width: 100%;
+    background: #c0c0c0;
+}
+.container_wapper3 {
+	width: 100%;
+	height:auto;
+    background: #c0c0c0;
+}
+.container_wapper2 {
+    width: 100%;
+    background: white;
+}
+.container{
+	width: 100%;
+	height:auto;
+    background: white;
+}
+
+.container4{
+	width: 30%;
+	height:auto;
+    background: white;
+	float:left;
+}
+
+
+.img{
+	width:130px;
+	height:130px;
+}
+
+.textimg
+{
+	font-family:  'RALEWAY-BLACKITALIC';
+	font-size:4.5vw;
+	color:black;
+	background-color: rgba(255, 255, 255, 0.15);
+	width:auto;
+    position:absolute;
+    left:20%; 
+	right:20%;
+	bottom: 15%;
+	text-align:center; 
+	
+}
+
+#bienvenida{
+	height: auto;
+	font-family:'RALEWAY-EXTRABOLD';
+	font-size:16px;
+	color:#44588a;
+	text-shadow: 1px 1px 6px rgba(150, 150, 150, 0.9);
+	position:relative; 
+	left:16%; 
+	height:auto;
+	width:70%;
+	text-align:justify;
+}
+
+
+#titulo{
+	    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+	font-family:'RALEWAY-SEMIBOLDITALIC';
+	font-size:45px;
+    color: #3b3b3b;
+}
+
+#sub-titulo{
+    text-align: center;
+	font-family:'RALEWAY-SEMIBOLDITALIC';
+	font-size:25px;
+    color: #3b3b3b;
+}
+.texto{
+	font-family:  'RALEWAY-ITALIC';
+	font-size:15px;
+	padding-left: 10%; 
+	padding-right: 10%;
+}
+
+#subtitulo{
+    text-align: center;
+	font-family:'RALEWAY-SEMIBOLDITALIC';
+    color: red;
+}
+
+.container-fluid {
+    max-width: 1600px;
+}
+
+#banner{
+	border-style: groove;
+	border-color: green;
+	border-width: .7em;
+	height:200px;
+}
+#bloque1{
+	height:100%;
+text-align: center;
+  padding: 1rem;
+  
+}
+
+#str{
+	display: inline-block; 
+	width:200px;
+}
+
+#bloque2{
+	height:100%;
+	text-align: justify;
+	padding: 2rem;
+	font-size:16px;
+	padding-left:3em;
+}
+
+#bloque3{
+	height:100%;
+	text-align: justify;
+	padding: 1rem;
+	font-size:16px;
+}
+
+.templatemo_logo a:hover {
+	text-decoration: none;
+	max-height: 100%;
+	  width: 100%;
+}
+/*menu*/
+#templatemo_mobile_menu {
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #f9f9f9;
+    position: fixed;
+    z-index: 5500;
+    right: -100px;
+    display: none;
+    overflow: auto;
+}
+#templatemo_mobile_menu ul li a {
+    text-align: left;
+    background: #666666;
+    color: #000;
+	font-family:raleway;
+	font-weight:bold;
+}
+#templatemo_mobile_menu ul li:hover a {
+	color: #fff;
+	background-color: #666666;
+}
+#templatemo_banner_menu {
+    width: 100%;
+    background: #f9f9f9;
+    height: 94px;
+    border-bottom: 1px solid #666666;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+}
+#templatemo_banner_menu #logo_img {
+	max-height: 110%;
+	
+	max-width: 320px;
+	
+	position: relative; /*hace que muevas relativamente su posición*/
+  	top: 0px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+  	left: 10px; /*Pixeles a la izquierda de su posición natural*/
+  	right: 0px; 
+}
+
+@media screen and (max-width: 1000px) { /* Hacemos la búsqueda y si coincide modificamos las propiedades de la imagen */
+        #templatemo_banner_menu #logo_img{
+                max-width: 260px;
+				margin-left: -20px;   /* Agregamos un margen negativo que represente el 50% */
+        }
+		#sub-titulo{
+			text-align: center;
+			font-family:'RALEWAY-SEMIBOLDITALIC';
+			font-size:23px;
+			color: #3b3b3b;
+		}
+		.texto{
+			font-family:  'RALEWAY-ITALIC';
+			font-size:13.5px;
+			padding-left: 10%; 
+			padding-right: 10%;
+		}
+		
+		.img{
+			width:100px;
+			height:100px;
+			}
+		
+}
+}
+@media screen and (max-width: 750px) { /* Hacemos la búsqueda y si coincide modificamos las propiedades de la imagen */
+        #templatemo_banner_menu #logo_img{
+			margin-top: -5%;
+                max-width: 320px;
+				margin-left: 20%;   /* Agregamos un margen negativo que represente el 50% */
+        }
+		
+		#sub-titulo{
+			text-align: center;
+			font-family:'RALEWAY-SEMIBOLDITALIC';
+			font-size:20px;
+			color: #3b3b3b;
+		}
+		.texto{
+			font-family:  'RALEWAY-ITALIC';
+			font-size:13px;
+			padding-left: 10%; 
+			padding-right: 10%;
+		}
+		
+		.img{
+			width:90px;
+			height:90px;
+			}
+		
+}
+
+@media screen and (max-width: 600px) 
+{
+	.container4{
+			width: 70%;
+			height:auto;
+			background: white;
+			float:none;
+		}
+}
+
+
+@media screen and (max-width: 500px) { /* Hacemos la búsqueda y si coincide modificamos las propiedades de la imagen */
+        #templatemo_banner_menu #logo_img{
+				margin-top: 5%;
+                max-width: 240px;
+				margin-left: -20%;   /* Agregamos un margen negativo que represente el 50% */
+        }
+		
+
+}
+@media screen and (max-width:350px) { /* Hacemos la búsqueda y si coincide modificamos las propiedades de la imagen */
+        #templatemo_banner_menu #logo_img{
+				margin-top: 5%;
+                max-width: 210px;
+				margin-left: -35%;   /* Agregamos un margen negativo que represente el 50% */
+        }
+}
+
+#templatemo_banner_menu #logo_text span {
+	color: #006699;
+}
+#templatemo_banner_menu ul li a ,
+#templatemo_banner_menu ul li a:focus {/*menu texto*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+    color: #000;
+    transition-duration: .7s;
+}
+#templatemo_banner_menu ul li a:hover ,
+#templatemo_banner_menu ul li a.current
+{
+    background-position: 0 0px ;
+    background-color: #ffd200;
+    color: #ffffff;
+}
+#templatemo_banner_menu #mobile_menu {
+    padding-top: 25px;
+    font-size: 30px;
+    float: right;
+    color: #ffd200;
+}
+
+
+
+
+
+.carousel-inner, .carousel-inner > .item, .carousel-inner > .item > img {
+  height: 100%;
+}
+
+
+
+/*about our organization*/
+#templatemo_about {
+    background: #ffffff;
+    float: rigth;
+}
+#templatemo_about .about_icon img {
+    width: 150px;
+	height: 100px;
+	margin: 0px 0px 0px 70px;
+}
+#templatemo_about .about_icon h2 {
+    text-align: center;
+	margin: 0px 0px 0px 50px;
+    
+}
+#templatemo_about .about_icon .imgwap {
+    text-align: center;
+    border-radius: 75px;
+}
+#templatemo_about .about_icon p {
+    text-align: center;
+   
+}
+#templatemo_about .mission {
+	background-color: white;
+	color: #f5bd48;
+}
+#templatemo_about .product {
+    background-color: white;
+    color: #f5bd48;
+}
+#templatemo_about .testimonial {
+    background-color: white;
+    color: #ab4921;
+}
+
+#templatemo_about #testimonial_text_wap {
+    overflow: hidden;
+	height:250px !important;
+}
+#templatemo_about #testimonial_text_wap h2 {
+    font-size: 24px;
+    margin: 0px 0px 0px 100px;
+    padding: 12px 0;
+	align:justify;
+	align:center;
+	color:#44588a;
+	
+}
+#templatemo_about #testimonial_text_wap h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 12px 0;
+	color:#44588a;
+	
+}
+#templatemo_about #testimonial_text_wap img {
+    margin-bottom: 20px ;
+}
+#templatemo_about #testimonial_text_wap p {
+	margin: 0px 0px 0px 100px;
+    font-size: 16px;
+    line-height: 1.5em;
+	color:#44588a;
+	text-align:justify;
+}
+#templatemo_about .testimonial_text {
+    width: 90%;
+    float: right;
+}
+#templatemo_about .pre_next {
+    font-size: 70px;
+    top: 50%;
+    margin-top: -35px;
+    position: absolute;
+}
+#templatemo_about .pre_next a {
+    color: #6698b5;
+    float: left;
+}
+#templatemo_about .pre_next a:hover {
+    color: #334d5c;
+}
+#templatemo_about #testimonial_text_wap h1 {
+    font-size: 70px;
+    top: 50%;
+    margin-top: -35px;
+}
+#templatemo_about .testimonial_top_bottom_spacer {
+    padding-bottom: 80px;
+}
+/*events*/
+#templatemo_events {
+	float: left;
+	overflow: hidden;
+	background-color: #E6E6E6;
+}
+#templatemo_events h1{
+    color: #00000;
+}
+#templatemo_events .event_box_wap {
+    overflow:hidden;
+    margin-bottom: 30px;
+    cursor: pointer;
+    position: relative;
+}
+#templatemo_events .event_box_wap .event_box_img {
+    position: relative;
+    top: 0;
+}
+#templatemo_events .event_box_wap .event_box_caption {
+    position: relative;
+    top: 0;
+    padding-bottom: 10px;
+    background: #ffd200;
+	font-family:raleway;
+    width: 100%;
+    border-top: 3px solid black;
+}
+#templatemo_events .event_box_wap h1,
+#templatemo_events .event_box_wap p {
+    margin: 0;
+    color: #000000;
+    text-align: left;
+}
+#templatemo_events .event_box_wap p {
+    padding: 5px 20px 15px 20px;
+}
+#templatemo_events .event_box_wap h1 {
+    padding: 20px 20px 20px 20px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+/*contact*/
+#templatemo_contact {
+	background-color: #D4D4D4;
+	
+}
+#templatemo_contact h1 {
+text-align: center;
+	font-family:'RALEWAY-SEMIBOLDITALIC';
+	font-size:2.5vw;
+    color: #3b3b3b;	
+}
+
+
+#templatemo_contact h2 {
+	font-family: 'RALEWAY-SEMIBOLDITALIC';
+    font-size: 24px;
+    color: #000000;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+#templatemo_contact p {
+	font-family:'RALEWAY-semiBOLD';
+    color: #00000;
+	margin-top: 1px;
+}
+
+#templatemo_contact strong {
+	font-family:'RALEWAY-extraBOLD';
+    color: #00000;
+    line-height: 25px;
+	margin-top: 1px;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.4); /* IE */
+  -moz-transform: scale(1.4); /* FF */
+  -webkit-transform: scale(1.4); /* Safari and Chrome */
+  -o-transform: scale(1.4); /* Opera */
+}
+
+#templatemo_contact ul li a {
+    background: none;
+	font: 'Raleway', sans-serif;
+}
+#templatemo_contact ul li a i {
+	font: 'RALEWAY-semiBOLD';
+    width: 60px;
+    padding: 20px 0;
+    font-size: 32px;
+    color: #00000;
+    text-align: center;
+}
+
+
+
+ 
+#templatemo_contact button:hover {
+    background: #f4f4f4;
+}
+
+/*  Small devices (tablets, 768px and up)  */
+@media (max-width: 768px ) { 
+    #templatemo_about .pre_next {
+        font-size: 15px;
+    }
+    #templatemo_timeline .right_timer {
+        background-position: center center;
+    }
+}
+/*  Medium devices (desktops, 992px and up)  */
+@media (max-width: 970px ) {
+    #templatemo_timeline .right_timer {
+        background-position: 100px 5px;
+    }
+    #templatemo_banner_menu #logo_text {
+        font: normal normal normal 30px/1em 'raleway', sans-serif;
+    }
+    #templatemo_timeline .container-fluid {
+        background: url("../images/time_line_bg.jpg") repeat-y 28px 0;
+    }
+}

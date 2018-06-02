@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('Fuente/Raleway-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RALEWAY-BLACKITALIC';
+    src: url('Fuente/RALEWAY-BLACKITALIC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RALEWAY-EXTRABOLD';
+    src: url('Fuente/RALEWAY-EXTRABOLD.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'RALEWAY-SEMIBOLD';
+    src: url('Fuente/RALEWAY-SEMIBOLD.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RALEWAY-THINITALIC';
+    src: url('Fuente/RALEWAY-THINITALIC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RALEWAY-SEMIBOLDITALIC';
+    src: url('Fuente/RALEWAY-SEMIBOLDITALIC.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RALEWAY-ITALIC';
+    src: url('Fuente/RALEWAY-ITALIC.ttf') format('truetype');
+}
+RALEWAY-BOLD
+@font-face {
+    font-family: 'RALEWAY-BOLD';
+    src: url('Fuente/RALEWAY-BOLD.ttf') format('truetype');
+}
